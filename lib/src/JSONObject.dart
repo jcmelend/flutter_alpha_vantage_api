@@ -32,4 +32,9 @@ class JSONObject {
   String getString(String key) {
     return  _get(key, this.jsonContents);
   }
+
+  Map<String, dynamic> getJSONMap() {
+    return this.jsonContents;
+  }
+
 }
